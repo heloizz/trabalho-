@@ -1,4 +1,4 @@
-
+import time
 
 nome = imput (" Escreva seu nome")
 print("bem-vindo,", nome + "!")
@@ -10,10 +10,12 @@ print("2 - consulta")
 print("3 - prescrição médica")
 
 
-opcao = int(input)("digite o número desejado")
+opcao = int(input("digite o número desejado"))
 if opcao == 1:
     print("digite o seu cpf")
-if opcao == 2:
+elif opcao == 2:
     print("verificar datas diponíveis")
-if opcao == 3:
+elif opcao == 3:
     print("digite o seu cpf")
+
+else print("opção não encontrada")
