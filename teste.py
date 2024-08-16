@@ -1,6 +1,8 @@
 import time
 
-nome = imput (" Escreva seu nome")
+
+# esse código vai pedir o nome do usuário 
+nome = input (" Escreva seu nome")
 print("bem-vindo,", nome + "!")
 
 print("Como posso te ajudar hoje?")
@@ -18,4 +20,4 @@ elif opcao == 2:
 elif opcao == 3:
     print("digite o seu cpf")
 
-else print("opção não encontrada")
+else: print("opção não encontrada")
