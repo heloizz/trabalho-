@@ -1,6 +1,6 @@
 import time
 
-
+# faltou criar a função
 # esse código vai pedir o nome do usuário 
 nome = input (" Escreva seu nome")
 print("bem-vindo,", nome + "!")
@@ -21,3 +21,4 @@ elif opcao == 3:
     print("digite o seu cpf")
 
 else: print("opção não encontrada")
+
